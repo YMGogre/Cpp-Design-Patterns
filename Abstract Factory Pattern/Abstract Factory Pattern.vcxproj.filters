@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\抽象类%28接口%29">
+      <UniqueIdentifier>{726245ee-4988-4a00-930a-aa6c3761d26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类">
+      <UniqueIdentifier>{e1fb05d2-d20b-46a0-a4c6-c62f3ac75b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类\颜色抽象类的实体类">
+      <UniqueIdentifier>{fbc546e3-9760-4005-9fc6-01eca83575e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类\形状抽象类的实体类">
+      <UniqueIdentifier>{d5da9c1b-8d5f-4ae7-81d3-707085314704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类\抽象工厂类的实体类">
+      <UniqueIdentifier>{9fe93a3a-38a2-4fc5-88bb-de00ec8f045c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\实体类">
+      <UniqueIdentifier>{15f9075e-8af3-4d38-b149-50eda637bf3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\实体类\抽象工厂类的实体类">
+      <UniqueIdentifier>{234072a5-1c1b-4788-b9c9-3e617b656170}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>头文件\抽象类%28接口%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>头文件\抽象类%28接口%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件\抽象类%28接口%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Blue.h">
+      <Filter>头文件\实体类\颜色抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Green.h">
+      <Filter>头文件\实体类\颜色抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>头文件\实体类\形状抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件\实体类\形状抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryProducer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFactory.h">
+      <Filter>头文件\实体类\抽象工厂类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFactory.h">
+      <Filter>头文件\实体类\抽象工厂类的实体类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FactoryProducer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFactory.cpp">
+      <Filter>源文件\实体类\抽象工厂类的实体类</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeFactory.cpp">
+      <Filter>源文件\实体类\抽象工厂类的实体类</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

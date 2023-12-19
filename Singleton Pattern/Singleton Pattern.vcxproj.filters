@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\饿汉式">
+      <UniqueIdentifier>{32e4957e-a059-4bf4-996f-7d17d455eb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\懒汉式，线程安全">
+      <UniqueIdentifier>{0d5ceb73-6fba-4018-8752-693d5d1ba003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\懒汉式，线程不安全">
+      <UniqueIdentifier>{73d52cea-1145-4449-a066-c5b40552dbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\双检锁/双重校验锁（DCL）">
+      <UniqueIdentifier>{29aab3cc-e2f7-49d3-a2a5-012df60d38e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\登记式/静态内部类">
+      <UniqueIdentifier>{c5593de0-4b68-45fe-9d82-e40e5389b9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\静态局部变量">
+      <UniqueIdentifier>{0651e039-b82e-4597-9b5e-4ae0e8dc8e49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EagerSingleton.h">
+      <Filter>头文件\饿汉式</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeLazySingleton.h">
+      <Filter>头文件\懒汉式，线程安全</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadUnsafeLazySingleton.h">
+      <Filter>头文件\懒汉式，线程不安全</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleCheckedLockingSingleton.h">
+      <Filter>头文件\双检锁/双重校验锁（DCL）</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticNestedClassSingleton.h">
+      <Filter>头文件\登记式/静态内部类</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticLocalVariableSingleton.h">
+      <Filter>头文件\静态局部变量</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

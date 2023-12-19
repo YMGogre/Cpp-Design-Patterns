@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\抽象类%28接口%29">
+      <UniqueIdentifier>{9eca5990-34e7-4510-96b1-ca204b682410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类">
+      <UniqueIdentifier>{2f6c575f-9eee-4966-b142-da3d02c9bfe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类\包装抽象类的实体类">
+      <UniqueIdentifier>{8c5e0495-f50b-430f-b73e-aa3254a6dbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实体类\食物抽象类的实体类">
+      <UniqueIdentifier>{3a709ff2-24a0-4ca7-b849-ed7b0a383520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\抽象类%28接口%29\拥有部分实现的抽象类">
+      <UniqueIdentifier>{dc0135f1-f750-48ab-a704-85a9a8b16bd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>头文件\抽象类%28接口%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Packing.h">
+      <Filter>头文件\抽象类%28接口%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper.h">
+      <Filter>头文件\实体类\包装抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Bottle.h">
+      <Filter>头文件\实体类\包装抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Burger.h">
+      <Filter>头文件\抽象类%28接口%29\拥有部分实现的抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="ColdDrink.h">
+      <Filter>头文件\抽象类%28接口%29\拥有部分实现的抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="VegBurger.h">
+      <Filter>头文件\实体类\食物抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBurger.h">
+      <Filter>头文件\实体类\食物抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Coke.h">
+      <Filter>头文件\实体类\食物抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Pepsi.h">
+      <Filter>头文件\实体类\食物抽象类的实体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Meal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MealBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MealBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
