@@ -123,13 +123,17 @@ int main() {
 > 在 `main()` 函数中，我们为每个操作创建了一个新的 Context 对象，而并没有在运行时改变单个 Context 对象的行为。每个 Context 对象在创建时就已经确定了其策略（即行为），并且在其生命周期内，这个策略是不会改变的。
 >
 > 然而，这并不意味着我们不能在运行时改变单个 Context 对象的行为。事实上，如果我们希望在运行时改变单个 Context 对象的行为，我们可以在 Context 类中添加一个设置策略的方法，比如：
+> 
 > ```cpp
 > inline void setStrategy(Strategy* _strategy) {
 > 	delete strategy;
 > 	strategy = _strategy;
 > }
 > ```
+> 
 > 然后，我们就可以在运行时改变单个 Context 对象的行为了。
+>
+> 但是，就算我们为每个操作创建了一个新的 Context 对象，但每个 Context 对象都有自己的行为，这些行为是通过不同的策略对象来定义的。所以即便我们的 Context 类中没有设置策略的方法 `setStrategy(Strategy* _strategy)`，原本的示例代码就已经是策略模式的一个很好的实现了：能够在运行时改变对象的行为。
 
 ### 步骤五
 
