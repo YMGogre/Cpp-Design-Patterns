@@ -11,7 +11,7 @@ class Cricket :
 	public Game
 {
 
-public:
+protected:
 	inline virtual void endPlay() override {
 		std::cout << "Cricket Game Finished!" << std::endl;
 	}

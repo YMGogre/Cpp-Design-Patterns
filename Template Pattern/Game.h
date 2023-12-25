@@ -7,11 +7,12 @@
 class Game
 {
 
-public:
+protected:
 	virtual void initialize() = 0;
 	virtual void startPlay() = 0;
 	virtual void endPlay() = 0;
 
+public:
 	// 模板
 	inline virtual void play() final {
 		// 初始化游戏

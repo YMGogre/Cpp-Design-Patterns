@@ -40,11 +40,12 @@
 class Game
 {
 
-public:
+protected:
 	virtual void initialize() = 0;
 	virtual void startPlay() = 0;
 	virtual void endPlay() = 0;
 
+public:
 	/**
      * 模板方法提供了「游玩游戏」的模板，
      * 即按如下顺序执行它的成员函数即可 
@@ -81,7 +82,7 @@ class Cricket :
 	public Game
 {
 
-public:
+protected:
 	inline virtual void endPlay() override {
 		std::cout << "Cricket Game Finished!" << std::endl;
 	}
@@ -98,7 +99,7 @@ class Football :
 	public Game
 {
 
-public:
+protected:
 	inline virtual void endPlay() override {
 		std::cout << "Football Game Finished!" << std::endl;
 	}
@@ -142,3 +143,21 @@ Football Game Initialized! Start playing.
 Football Game Started. Enjoy the game!
 Football Game Finished!
 ```
+
+### 步骤五
+
+[查看项目类图](https://learn.microsoft.com/zh-cn/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types?view=vs-2022#add-class-diagrams-to-projects)
+
+---
+
+## 4、总结
+
+* 模板（方法）模式是一种非常基础性的设计模式，在面向对象系统中有着大量的应用。它用最简洁的机制（虚函数的多态性）为很多应用程序框架提供了灵活的扩展点，是代码复用方面的基本实现结构。
+* 除了可以灵活地应对子步骤的变化外，“不要调用我，让我来调用你” 的反向控制结构是模板（方法）模式的典型应用。
+* 在具体实现方面，被模板（方法）模式调用的虚函数可以具有实现，也可以没有任何实现（抽象方法、纯虚函数），但一般推荐将它们的访问属性设置为 `protected`。
+
+	> 因为这些被调用的虚函数通常需要在模板方法内以指定的方式（比如特性的顺序组合）被调用；而将它们设置为 `public` 对外界公开单独拿出去被调用通常意义不大。
+
+---
+
+[下一篇](../Strategy%20Pattern/README.md)
