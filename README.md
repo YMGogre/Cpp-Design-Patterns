@@ -6,7 +6,33 @@
 
 <div align="center"><img src="./images/csdn.png" alt="csdn" width="128"></div>
 
-# Design Patterns 设计模式
+<p align="center">
+    <h1 align="center">Design Patterns 设计模式</h1>
+</p>
+
+<p align="center">
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/YMGogre/Cpp-Design-Patterns">
+    </a>
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/YMGogre/Cpp-Design-Patterns">
+    </a>
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/stargazers">
+        <img src="https://img.shields.io/github/stars/YMGogre/Cpp-Design-Patterns">
+    </a>
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/forks">
+        <img src="https://img.shields.io/github/forks/YMGogre/Cpp-Design-Patterns">
+    </a>
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/releases">
+        <img src="https://img.shields.io/github/v/release/YMGogre/Cpp-Design-Patterns">
+    </a>
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/issues">
+        <img src="https://img.shields.io/github/issues/YMGogre/Cpp-Design-Patterns">
+    </a>
+    <a href="https://github.com/YMGogre/Cpp-Design-Patterns/pulls">
+        <img src="https://img.shields.io/github/issues-pr/YMGogre/Cpp-Design-Patterns">
+    </a>
+</p>
 
 学习目标：
 
