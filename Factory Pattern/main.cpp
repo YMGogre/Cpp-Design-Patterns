@@ -12,4 +12,8 @@ int main() {
 	Shape* shape2 = shapeFactory->getShape("Ellipse");
 	// 调用 Ellipse 的 render() 方法
 	shape2->render();
+
+	delete shapeFactory;
+	delete shape1;
+	delete shape2;
 }
