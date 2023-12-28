@@ -11,6 +11,8 @@
 class ShapeFactory :
     public AbstractFactory
 {
+
+public:
     /// <summary>
     /// 实现基类的纯虚获取形状函数
     /// </summary>
