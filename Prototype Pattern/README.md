@@ -1,5 +1,7 @@
 [上一篇](../Abstract%20Factory%20Pattern/README.md)
 
+---
+
 # 原型模式 Prototype
 
 ## 1、动机
@@ -18,6 +20,8 @@
     <dt>关键代码</dt>
     <dd>通过拷贝构造函数返回自身的副本。</dd>
 </dl>
+
+---
 
 ## 3、实现
 
@@ -155,6 +159,8 @@ Inside Ellipse::render() method.
 ### 步骤六
 
 [查看项目类图](https://learn.microsoft.com/zh-cn/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types?view=vs-2022#add-class-diagrams-to-projects)
+
+---
 
 ## 4、总结
 
