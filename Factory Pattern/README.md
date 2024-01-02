@@ -172,6 +172,8 @@ else if (strcmp(shapeType, "Triangle") == 0) {
     <dd>创建过程在其子类执行。</dd>
 </dl>
 
+---
+
 ## 2、实现
 
 ### 步骤一
