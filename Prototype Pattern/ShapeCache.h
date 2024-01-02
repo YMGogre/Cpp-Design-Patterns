@@ -16,7 +16,7 @@ class ShapeCache
 
 private:
 	/// <summary>
-	/// 使用一张哈希表存储实体类
+	/// 使用一张哈希表存储实体类对象
 	/// </summary>
 	std::unordered_map<std::string, std::unique_ptr<Shape>> shapeMap;
 
