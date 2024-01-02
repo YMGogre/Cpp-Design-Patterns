@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CallOnceSingleton.h" />
     <ClInclude Include="DoubleCheckedLockingSingleton.h" />
     <ClInclude Include="EagerSingleton.h" />
     <ClInclude Include="StaticLocalVariableSingleton.h" />
     <ClInclude Include="StaticNestedClassSingleton.h" />
+    <ClInclude Include="ThreadSafeDoubleCheckedLockingSingleton.h" />
     <ClInclude Include="ThreadSafeLazySingleton.h" />
     <ClInclude Include="ThreadUnsafeLazySingleton.h" />
   </ItemGroup>

@@ -31,6 +31,12 @@
     <Filter Include="头文件\静态局部变量">
       <UniqueIdentifier>{0651e039-b82e-4597-9b5e-4ae0e8dc8e49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\std::call_once">
+      <UniqueIdentifier>{8df6c1fd-a53c-4679-9320-f24afd56d1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\双检锁，线程安全">
+      <UniqueIdentifier>{4d5d7ffe-eafe-4ef1-a48d-356237cff0d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EagerSingleton.h">
@@ -50,6 +56,12 @@
     </ClInclude>
     <ClInclude Include="StaticLocalVariableSingleton.h">
       <Filter>头文件\静态局部变量</Filter>
+    </ClInclude>
+    <ClInclude Include="CallOnceSingleton.h">
+      <Filter>头文件\std::call_once</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeDoubleCheckedLockingSingleton.h">
+      <Filter>头文件\双检锁，线程安全</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
