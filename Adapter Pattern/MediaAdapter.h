@@ -43,6 +43,9 @@ public:
 			advancedMusicPlayer->playMp4(fileName);
 		}
 	}
+	inline virtual ~MediaAdapter() {
+		delete advancedMusicPlayer;
+	}
 };
 
 #endif // !MEDIAADAPTER_H

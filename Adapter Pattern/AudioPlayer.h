@@ -36,6 +36,9 @@ public:
 			std::cout << "Invalid media. " << audioType << " format not supported" << std::endl;
 		}
 	}
+	inline virtual ~AudioPlayer() {
+		delete mediaAdapter;
+	}
 };
 
 #endif // !AUDIOPLAYER_H
