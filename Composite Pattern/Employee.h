@@ -61,6 +61,18 @@ public:
 	inline std::vector<std::shared_ptr<Employee>> getSubordinates() {
 		return subordinates;
 	}
+	/// <summary>
+	/// 打印当前员工及其下属所有员工的树形层次结构
+	/// </summary>
+	inline void print() {
+		std::cout << *this << std::endl;
+		if (!subordinates.empty()) {
+			for (auto subordinate : subordinates) {
+				subordinate->print();
+			}
+		}
+	}
+
 	// 声明重载的 << 运算符为友元函数以访问私有成员变量
 	friend std::ostream& operator<<(std::ostream& os, const Employee& obj);
 };

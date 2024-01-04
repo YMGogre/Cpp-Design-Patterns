@@ -33,4 +33,7 @@ int main() {
 			std::cout << *employee << std::endl;
 		}
 	}
+
+	// 像操作单个对象那样打印该组织的所有员工
+	//CEO->print();
 }
