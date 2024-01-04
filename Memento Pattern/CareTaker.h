@@ -5,7 +5,7 @@
 #include "Memento.h"
 
 /// <summary>
-/// 管理者类 CareTaker，负责从 Memento 中恢复对象的状态
+/// 备忘录管理者类 CareTaker，负责管理 Memento 对象
 /// </summary>
 class CareTaker
 {

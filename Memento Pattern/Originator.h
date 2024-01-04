@@ -5,7 +5,7 @@
 #include "Memento.h"
 
 /// <summary>
-/// 创建者类 Originator，负责创建并在 Memento 对象中存储状态
+/// 原发器类 Originator，负责创建状态并在 Memento 对象中存储状态
 /// </summary>
 class Originator 
 {
