@@ -12,7 +12,7 @@ class AbstractLogger
 {
 
 protected:
-	/// <summary>日志等级</summary>
+	/// <summary>记录器级别</summary>
 	int level;
 	/// <summary>责任链中的下一个元素</summary>
 	AbstractLogger* nextLogger = nullptr;
