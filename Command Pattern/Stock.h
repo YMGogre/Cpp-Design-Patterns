@@ -4,7 +4,7 @@
 #include <iostream>
 
 /// <summary>
-/// 作为请求的 Stock 库存类，包含购买和出售库存两个请求
+/// 作为接收者的 Stock 股票类，其知道如何执行与请求相关的操作
 /// </summary>
 class Stock
 {
@@ -17,13 +17,13 @@ private:
 
 public:
 	/// <summary>
-	/// 购买库存
+	/// 购买股票
 	/// </summary>
 	inline void buy() {
 		std::cout << "Stock [ Name: " << name << ", Quantity: " << quantity << " ] bought" << std::endl;
 	}
 	/// <summary>
-	/// 出售库存
+	/// 卖出股票
 	/// </summary>
 	inline void sell() {
 		std::cout << "Stock [ Name: " << name << ", Quantity: " << quantity << " ] sold" << std::endl;

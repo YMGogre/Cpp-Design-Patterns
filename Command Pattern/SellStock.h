@@ -5,7 +5,7 @@
 #include "Stock.h"
 
 /// <summary>
-/// 实现抽象类 Order 的实体命令类 SellStock，将执行实际的出售库存命令处理
+/// 实现抽象类 Order 的实体命令类 SellStock，将执行实际的出售股票命令处理
 /// </summary>
 class SellStock :
 	public Order
