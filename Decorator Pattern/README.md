@@ -118,7 +118,9 @@ public:
 		setRedBorder(decoratedShape);
 	}
 };
+```
 
+```cpp
 // 具体装饰器类添加了一个新的功能 —— 设置形状的绿色背景
 class GreenBackgroundShapeDecorator :
 	public ShapeDecorator
