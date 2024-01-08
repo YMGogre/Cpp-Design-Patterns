@@ -102,7 +102,9 @@ protected:
 		std::cout << "Cricket Game Started. Enjoy the game!" << std::endl;
 	}
 };
+```
 
+```cpp
 // 足球游戏
 class Football :
 	public Game
