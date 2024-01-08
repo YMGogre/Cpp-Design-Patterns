@@ -77,7 +77,9 @@ public:
 		// 什么也不做
 	}
 };
+```
 
+```cpp
 class Mp4Player :
 	public AdvancedMediaPlayer
 {
