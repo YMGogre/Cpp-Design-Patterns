@@ -72,7 +72,9 @@ public:
 		return "Start State";
 	}
 };
+```
 
+```cpp
 class StopState :
 	public State
 {
