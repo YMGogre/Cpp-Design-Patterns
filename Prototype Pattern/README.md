@@ -72,7 +72,9 @@ public:
 		return type;
 	}
 };
+```
 
+```cpp
 class Ellipse :
 	public Shape
 {
