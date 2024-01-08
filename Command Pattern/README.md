@@ -100,7 +100,9 @@ public:
 		abcStock.buy();
 	}
 };
+```
 
+```cpp
 class SellStock :
 	public Order
 {
