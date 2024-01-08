@@ -67,7 +67,9 @@ public:
         std::cout << "Inside Rectangle::render() method." << std::endl;
     }
 };
+```
 
+```cpp
 class Ellipse :
     public Shape
 {
