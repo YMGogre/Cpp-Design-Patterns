@@ -74,7 +74,9 @@ public:
         return "Wrapper";
     }
 };
+```
 
+```cpp
 class Bottle :
 	public Packing
 {
@@ -102,7 +104,9 @@ public:
 		return new Wrapper();
 	}
 };
+```
 
+```cpp
 class ColdDrink :
 	public Item
 {
@@ -133,7 +137,9 @@ public:
 		return 25.0f;
 	}
 };
+```
 
+```cpp
 class ChickenBurger :
 	public Burger
 {
@@ -161,7 +167,9 @@ public:
 		return 30.0f;
 	}
 };
+```
 
+```cpp
 class Pepsi :
 	public ColdDrink
 {
