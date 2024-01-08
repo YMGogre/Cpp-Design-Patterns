@@ -55,7 +55,9 @@ public:
 			<< radius << ", x: " << x << ", y: " << y << "]" << std::endl;
 	}
 };
+```
 
+```cpp
 class GreenCircle :
 	public RenderAPI
 {
