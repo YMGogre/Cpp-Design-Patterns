@@ -55,7 +55,9 @@ public:
 		return num1 + num2;
 	}
 };
+```
 
+```cpp
 // 两数相减
 class OperationSubtract :
 	public Strategy
@@ -66,7 +68,9 @@ public:
 		return num1 - num2;
 	}
 };
+```
 
+```cpp
 // 两数相乘
 class OperationMultiply :
 	public Strategy
