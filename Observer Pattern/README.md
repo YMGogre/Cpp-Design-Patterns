@@ -109,7 +109,9 @@ public:
 		std::cout << "Binary String: " << binary << std::endl;
 	}
 };
+```
 
+```cpp
 class OctalObserver :
 	public Observer
 {
@@ -126,7 +128,9 @@ public:
 		std::cout << "Octal String: " << oss.str() << std::endl;
 	}
 };
+```
 
+```cpp
 class HexaObserver :
 	public Observer
 {
